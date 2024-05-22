@@ -83,8 +83,62 @@ footer {
     justify-content: center; /* Center horizontally */
 }
 
+/* Style the search form */
+#search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the search input field */
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Style the search button */
+#search-form button {
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Dark purple color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the search results container */
+#search-results {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
 
 
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #8c43de; /* Link color */
+}
+
+.menu li a:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+}
 
 
 
