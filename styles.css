@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #ff6f91, #ff9671, #ffc75f, #f9f871);
+    color: #333;
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #0073e6;
+    font-size: 24px;
+}
+
+.social-media a:hover {
+    color: #005bb5;
+}
+
+.updates {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.update-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+.box {
+    background: linear-gradient(135deg, #4a00e0, #8e2de2); /* Colorful background */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow */
+    width: 30%; /* Width remains unchanged */
+    height: 200px; /* Height remains unchanged */
+    padding: 20px; /* Padding */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-align text */
+    box-sizing: border-box; /* Include padding in box dimensions */
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+
+
+
+
+
+
+
+
+.link-style {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use default text color */
+}
+	
+.content h1 {
+    margin: 50px 0 10px;
+    font-size: 24px;
+	text-align: center; /* Center text horizontally */
+}
+
+
+.center-text {
+    text-align: center; /* Center text horizontally */
+}
+
+
+
+.content p {
+    margin: 0 0 20px;
+    font-size: 14px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.stats span {
+    display: flex;
+    align-items: center;
+}
+
+.stats .online::before,
+.stats .members::before {
+    content: '';
+    display: inline-block;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+}
+
+.stats .online::before {
+    background: url('path_to_online_icon.svg') no-repeat center center;
+}
+
+.stats .members::before {
+    background: url('path_to_members_icon.svg') no-repeat center center;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
